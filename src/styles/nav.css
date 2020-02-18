@@ -1,0 +1,27 @@
+.nav {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link {
+    margin-top: 3vmin;
+    margin-right: 10vmin;
+}
+
+.link a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease 0.4s all;
+}
+
+
+.link a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 17px;
+}
