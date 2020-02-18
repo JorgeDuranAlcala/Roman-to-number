@@ -8,3 +8,18 @@
     align-items: center;
     font-family: 'Montserrat';
 }
+
+.fadeIn {
+    animation: ease-in-out fadeIn .8s;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

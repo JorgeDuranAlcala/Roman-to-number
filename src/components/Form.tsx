@@ -33,7 +33,7 @@ export default class Form extends React.Component<IFormProps, IFormState> {
         </div>
         <div className="row justify-content-center">
             <div className="col-md-6">
-                <div className="card shadow-lg">
+                <div className="card shadow-lg fadeIn">
                     <div className="card-header text-center">
                         <h3 className="text">Number to Roman Converter</h3>
                     </div>

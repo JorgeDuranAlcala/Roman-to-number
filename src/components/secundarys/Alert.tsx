@@ -7,7 +7,7 @@ export interface IAlertProps {
 
 export default function Alert (props: IAlertProps) {
   return (
-    <div className="alert alert-info">
+    <div className="alert alert-info fadeIn">
         {props.message}
     </div>
   );
